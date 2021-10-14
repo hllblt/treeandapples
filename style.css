@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  min-width: 800px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.tree {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.apples {
+  position: absolute;
+  z-index: 3;
+  width: 20px;
+  height: 20px;
+}
+
+#apple1 {
+  left: 80%;
+  bottom: 400px;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+}
+
+#apple2 {
+  left: 15%;
+  bottom: 400px;
+}
+
+#apple3 {
+  left: 30%;
+  bottom: 550px;
+}
+
+#apple4 {
+  left: 35%;
+  bottom: 450px;
+}
+
+#apple5 {
+  left: 50%;
+  bottom: 600px;
+}
+
+#apple6 {
+  left: 60%;
+  bottom: 525px;
+}
+
+#apple7 {
+  left: 70%;
+  bottom: 350px;
+}
+
+#basket {
+  position: absolute;
+  z-index: 2;
+  width: 20%;
+  height: 20%;
+  right: 5%;
+  bottom: 5%;
+}
+/*# sourceMappingURL=style.css.map */
