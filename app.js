@@ -20,12 +20,12 @@ let checker = 0;
 function dropping(appleID, appleBottom, condition) {
   let j = 0;
   const intervalDropping = setInterval(() => {
-    if (document.getElementById(appleID).style.bottom != "0px" && condition) {
+    if (document.getElementById(appleID).style.bottom != "20px" && condition) {
       document.getElementById(appleID).style.bottom = `${
         appleBottom - j * 20
       }px`;
     } else if (
-      document.getElementById(appleID).style.bottom == "0px" &&
+      document.getElementById(appleID).style.bottom == "20px" &&
       condition
     ) {
       //   document.getElementById(appleID).classList.add("inBasket");
